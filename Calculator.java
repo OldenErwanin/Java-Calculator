@@ -149,7 +149,7 @@ public class Calculator implements ActionListener {
         }
     }
 
-    // 3rd part code for convert a string containing math expression into a double
+    // 3rd party code for convert a string containing math expression into a double
     private static double computeAnother(String equation) {
         double result = 0.0;
         String noMinus = equation.replace("-", "+-");
